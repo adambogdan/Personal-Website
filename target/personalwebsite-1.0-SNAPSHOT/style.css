@@ -23,13 +23,13 @@ body {
   background-color: #1f1f1f;
   color: #fef5f3;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 150px;
+  margin-top: 200px;
   text-align: center;
 }
 
 #links {
   font-size: 1.75em;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 #name {
@@ -38,7 +38,25 @@ body {
 
 .symbol {
   font-size: 2.5em;
-  margin: 0 5px;
+  margin: 0 12px;
+  position: relative;
+}
+
+
+.symbol {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.symbol:hover {
+    -webkit-transform:scale(1.35); /* Safari and Chrome */
+    -moz-transform:scale(1.35); /* Firefox */
+    -ms-transform:scale(1.35); /* IE 9 */
+    -o-transform:scale(1.35); /* Opera */
+     transform:scale(1.35);
 }
 
 .symbol, a.symbol:before {
