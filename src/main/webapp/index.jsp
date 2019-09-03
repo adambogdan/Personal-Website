@@ -10,7 +10,7 @@
   <div id="name">Bogdan Adam</div>
   <div id="links">
   <!--   <span><a class="link" href="#">Profile</a></span> : -->
-    <span><a class="link" href="resume_v2.pdf">Resume</a></span>  &nbsp;&bull;&nbsp;
+    <span><a class="link" href="resume.pdf">Resume</a></span>  &nbsp;&bull;&nbsp;
     <span><a class="link" href="mailto:bogdan.adamj@gmail.com">Contact</a></span>
   </div>
   <div>
